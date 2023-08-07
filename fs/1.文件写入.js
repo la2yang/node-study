@@ -31,7 +31,7 @@ try {
 // ------------流式写入------------
 // 可以减少关闭文件的次数 fs.createWriteStream(path[, options])
 
-const ws = fs.createWriteStream('./同步写入.txt')
+const ws = fs.createWriteStream('./流式写入.txt')
 ws.write('流式写入1\n')
 ws.write('流式写入2\n')
 ws.write('流式写入3\n')
